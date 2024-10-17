@@ -133,11 +133,11 @@ footer a:hover {
   width: 400px; /* Increased width */
   margin-top: 5px;
   transition: border-radius 0.1s;
-  cursor: url('path-to-your-gray-dot-cursor-image.png'), auto; /* Custom cursor */
+  cursor: url(''), auto; /* Custom cursor */
 }
 
 #uv-address:hover {
-  cursor: url('path-to-your-gray-dot-cursor-image.png'), auto; /* Show custom cursor on hover */
+  cursor: url('curser.png'), auto; /* Show custom cursor on hover */
 }
 
 #uv-address:focus {
