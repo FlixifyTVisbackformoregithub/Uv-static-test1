@@ -126,14 +126,14 @@ footer a:hover {
   font-family: inherit;
   padding: 10px 20px; /* Increased padding for more height */
   height: 60px; /* Increased height */
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.2);
   color: #fff;
   border-radius: 50px;
   outline: none;
   width: 400px; /* Increased width */
   margin-top: 5px;
-  transition: border-radius 0.1s;
-  cursor: url(''), auto; /* Custom cursor */
+  transition: border-radius 1s;
+  cursor: url('curser.png'), auto; /* Custom cursor */
 }
 
 #uv-address:hover {
@@ -142,7 +142,7 @@ footer a:hover {
 
 #uv-address:focus {
   border: 1px solid rgba(253, 253, 253, 0.514);
-  border-radius: 6px;
+  border-radius: 8px;
 }
 
 .credit {
