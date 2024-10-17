@@ -124,17 +124,20 @@ footer a:hover {
 #uv-address {
   background: none;
   font-family: inherit;
-  padding: 0px 17px;
-  height: 48px;
-  border: 1px solid rgb(255, 255, 255, 0.2);
-  color: var(--text-color);
-  border-radius: 3px;
-  outline: none;
-  width: 350px;
-  margin-top: 5px;
-  border-radius: 50px;
+  padding: 10px 20px; /* Increased padding for more height */
+  height: 60px; /* Increased height */
+  border: 1px solid rgba(255, 255, 255, 0.2);
   color: #fff;
+  border-radius: 50px;
+  outline: none;
+  width: 400px; /* Increased width */
+  margin-top: 5px;
   transition: border-radius 0.1s;
+  cursor: url('path-to-your-gray-dot-cursor-image.png'), auto; /* Custom cursor */
+}
+
+#uv-address:hover {
+  cursor: url('path-to-your-gray-dot-cursor-image.png'), auto; /* Show custom cursor on hover */
 }
 
 #uv-address:focus {
