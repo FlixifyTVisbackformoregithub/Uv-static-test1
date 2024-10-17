@@ -83,28 +83,6 @@ body {
   color: white;
 }
 
-/* Navbar styles */
-.navbar {
-  background-color: #222;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 10px 0;
-}
-
-.navbar a {
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-  padding: 10px;
-  transition: background 0.3s;
-}
-
-.navbar a:hover {
-  background-color: #444;
-  border-radius: 5px;
-}
-
 footer {
   margin: 0 5vw;
   margin-top: auto;
@@ -203,21 +181,4 @@ footer a:hover {
 
 .credit input:checked ~ pre {
   display: block;
-}
-
-/* Theme styles */
-body.mocha {
-  background-color: #b58b7d; /* Mocha */
-}
-
-body.lava {
-  background-color: #ff5733; /* Lava */
-}
-
-body.water {
-  background-color: #00bfff; /* Water */
-}
-
-body.default {
-  background-color: #111; /* Default black */
 }
