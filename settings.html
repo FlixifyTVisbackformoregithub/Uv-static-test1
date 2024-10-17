@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="default">
+    <nav class="navbar">
+        <a href="home.html">Home</a>
+        <a href="index.html">Search</a>
+        <a href="settings.html">Settings</a>
+    </nav>
+
+    <h1>Settings</h1>
+    <h2>Theme</h2>
+    <select id="theme-selector">
+        <option value="default">Default (Black)</option>
+        <option value="mocha">Mocha</option>
+        <option value="lava">Lava</option>
+        <option value="water">Water</option>
+    </select>
+
+    <h2>Tab Settings</h2>
+    <label for="tab-title">Tab Title:</label>
+    <input type="text" id="tab-title" placeholder="Enter new title" />
+
+    <label for="favicon-url">Favicon URL:</label>
+    <input type="text" id="favicon-url" placeholder="Enter favicon URL" />
+    
+    <button id="apply-btn">Apply Settings</button>
+
+    <footer>
+        <div>
+            <a href="index.html">Go back to search</a>
+        </div>
+    </footer>
+
+    <script src="settings.js"></script>
+</body>
+</html>
